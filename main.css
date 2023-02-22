@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+
+
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    /* height: 100%; */
+
+
+
+}
+
+.section {
+    padding: 0 129px;
+}
+
+.nav-bar {
+    max-width: 150px;
+    min-height: 100vh;
+    background-color: #191718;
+    display: inline-block;
+}
+
+.nav-bar a {
+    color: #AAAAAA;
+    display: block;
+    padding: 14px 91px 11px 16px;
+    text-decoration: none;
+    border-bottom: 1 solid firebrick;
+}
+
+.nav-bar a:hover {
+    background-color: #5C5C5C;
+}
+
+.nav-bar>a:first-child {
+    color: #FFFFFF;
+
+}
+
+
+
+.logo-img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: 122px;
+    object-fit: contain;
+    margin: 20px auto;
+
+
+}
+
+.hero-main {
+    text-align: center;
+    background-color: #EFEFEF;
+    margin-top: 30px;
+    height: 210px;
+}
+
+.hero-main h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: clalc(21 /18);
+    padding-top: 38px;
+    padding-bottom: 18px;
+}
+
+.hero-main>p {
+    /* padding: 0 269px; */
+    width: 80%;
+    margin: 0 auto;
+    line-height: 19px;
+}
+
+.about-container {
+    margin-top: 40px;
+    display: flex;
+    gap: 50px;
+}
+
+.description-item {
+    display: flex;
+}
+
+.content-description>h3 {
+    margin-bottom: 18px;
+}
+
+.hr-item {
+    margin-top: 183px;
+
+    height: 2px;
+    width: 100%;
+    background-color: #DEDEDE;
+
+}
+
+.footer {
+    margin: 30px 0 30px 129px
+}
+
+@media only screen and (max-width: 600px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .nav-bar {
+        justify-content: space-between;
+        display: flex;
+        width: 100vh;
+        min-height: 50px;
+        background-color: #191718;
+    }
+
+    .nav-bar--item {
+        display: flex;
+    }
+
+
+    .nav-bar a {
+        text-align: center;
+        color: #AAAAAA;
+
+
+        text-decoration: none;
+        border-bottom: 1 solid firebrick;
+    }
+
+
+
+    .section {
+        padding: 0 50px;
+    }
+
+    .hero-main {
+        text-align: center;
+        background-color: #EFEFEF;
+        margin-top: 30px;
+        height: 100%;
+    }
+
+    .hero-main h4 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: clalc(21 /18);
+        padding-top: 15px;
+
+    }
+
+    .hero-main p {
+        padding-bottom: 20px;
+    }
+
+
+    .about-container {
+        margin-top: 40px;
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .content-description h3 {
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+    .hr-item {
+        margin-top: 50px;
+
+        height: 2px;
+        width: 100%;
+        background-color: #DEDEDE;
+
+    }
+
+    .nav-bar--item a:not(:last-child) {
+        display: none;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 1023px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .nav-bar {
+        justify-content: space-between;
+        display: flex;
+        max-width: 100%;
+        min-height: 50px;
+        background-color: #191718;
+    }
+
+    .nav-bar--item {
+        display: flex;
+    }
+
+
+    .nav-bar a {
+        text-align: center;
+        color: #AAAAAA;
+
+        padding: 20px;
+        text-decoration: none;
+        border-bottom: 1 solid firebrick;
+    }
+
+
+
+    .section {
+        padding: 0 50px;
+    }
+
+
+    .hero-main {
+        text-align: center;
+        background-color: #EFEFEF;
+        margin-top: 30px;
+        height: 100%;
+    }
+
+    .hero-main h4 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: clalc(21 /18);
+        padding-top: 15px;
+
+    }
+
+    .hero-main p {
+        padding-bottom: 20px;
+    }
+
+
+    .about-container {
+        margin-top: 40px;
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .content-description h3 {
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+    .description-item {
+        align-items: center;
+    }
+
+    .hr-item {
+        margin-top: 50px;
+
+        height: 2px;
+        width: 100%;
+        background-color: #DEDEDE;
+
+    }
+
+    .footer {
+        margin: 30px 0 30px 50px
+    }
+
+}
