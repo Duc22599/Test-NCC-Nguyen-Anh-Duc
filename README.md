@@ -2,7 +2,7 @@
 This is a project management tool used to manage company projects, project participants, progress, and project evaluations. The tool is built using .NET and Angular. The ERP-PROJECT tool is regularly managed and updated by the staff team of NCC.
 
 -----
-FE:
+-----FE-----:
 # Prerequisites
  Install Node.js which includes Node Package Manager version 14.20  
 
@@ -49,7 +49,7 @@ Before running the tests make sure you are serving the app via `ng serve`.
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
-BE: 
+-----BE-----: 
 ### Installation
 1. Install the project dependencies:
 - [ASP.NET Core SDK](https://dotnet.microsoft.com/download) (version 3.1.426)
