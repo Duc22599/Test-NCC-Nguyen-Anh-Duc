@@ -2,8 +2,16 @@
 This is a project management tool used to manage company projects, project participants, progress, and project evaluations. The tool is built using .NET and Angular. The ERP-PROJECT tool is regularly managed and updated by the staff team of NCC.
 
 -----
+# Screenshots
+![client](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/bbc35249-8945-497a-9c4d-fb1b3d22e0c0)
+![OutsourcingProject](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/f535bc3c-0861-4591-99bb-054aac3129da)
+![ProductProject](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/5b1cd91f-a3bb-4ff2-ab76-422d0e37b755)
+![TrainingProjects](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/9205109b-7253-4fdc-b5e4-a8fb90d75418)
+![TrainingRequest](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/329d8e7b-0db1-4b50-a0f5-7f824b126111)
+![WeeklyReport](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/73010a66-1d3c-4944-8ff0-583b055d5b5c)
+![WeeklyReport1](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/42bc3fc9-a153-4843-a800-e226cc090a99)
 
-# FE:![OutsourcingProject](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/cf36f882-6a57-4756-a5f6-3cb87076c34e)
+# FE
 
 # Prerequisites
  Install Node.js which includes Node Package Manager version 14.20  
