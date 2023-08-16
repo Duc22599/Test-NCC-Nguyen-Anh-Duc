@@ -3,7 +3,8 @@ This is a project management tool used to manage company projects, project parti
 
 -----
 
-# FE:
+# FE:![OutsourcingProject](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/cf36f882-6a57-4756-a5f6-3cb87076c34e)
+
 # Prerequisites
  Install Node.js which includes Node Package Manager version 14.20  
 
