@@ -1,5 +1,13 @@
 ## ERP-PROJECT (Project Management Tool)
+[ASP.NET Core & Angular](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular)
+
 This is a project management tool used to manage company projects, project participants, progress, and project evaluations. The tool is built using .NET and Angular. The ERP-PROJECT tool is regularly managed and updated by the staff team of NCC.
+
+## Screenshots
+
+<img  src="_screenshots/ui-home.png"  />
+<img src="_screenshots/ui-login.png" />
+<img src="_screenshots/ui-user-create-modal.png" />
 
 -----
 
