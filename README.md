@@ -14,7 +14,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
  - npm install -g @angular/cli@9.1.15
 
 2. Clone the repository:
- - git clone: https://github.com/your-username/your-angular-frontend.git
+ ```bash
+   $ git clone https://github.com/ncc-erp/ncc-erp-project
+   $ cd ncc-erp-project
+```
 
 3. Install dependencies:
  - npm install 
