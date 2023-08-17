@@ -11,7 +11,7 @@ Project Management is an open-source application that a versatile application ut
   - [Frontend Setup](#frontend-setup)
   - [Building](#building)
   - [Running](#running)
-- [Screenshots](#video-tutorial)
+- [Screenshots](#screenshots)
 - [License](#license)
 
 ## Getting Started
