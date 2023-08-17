@@ -95,9 +95,11 @@ code .
 
 npm install -g @angular/cli@9.1.15
 
-![InstallCLI](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/0b1876ba-921e-4b56-8000-6cbbab44c8ad)
+
 
 ```
+
+![InstallCLI](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/0b1876ba-921e-4b56-8000-6cbbab44c8ad)
 3. Install frontend dependencies:
 ```bash
 npm install
