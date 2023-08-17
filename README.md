@@ -1,96 +1,152 @@
-## ERP-PROJECT (Project Management Tool)
-This is a project management tool used to manage company projects, project participants, progress, and project evaluations. The tool is built using .NET and Angular. The ERP-PROJECT tool is regularly managed and updated by the staff team of NCC.
+# Project Management
 
------
-# Screenshots
-![client](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/bbc35249-8945-497a-9c4d-fb1b3d22e0c0)
-![OutsourcingProject](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/f535bc3c-0861-4591-99bb-054aac3129da)
-![ProductProject](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/5b1cd91f-a3bb-4ff2-ab76-422d0e37b755)
-![TrainingProjects](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/9205109b-7253-4fdc-b5e4-a8fb90d75418)
-![TrainingRequest](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/329d8e7b-0db1-4b50-a0f5-7f824b126111)
-![WeeklyReport](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/73010a66-1d3c-4944-8ff0-583b055d5b5c)
-![WeeklyReport1](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/42bc3fc9-a153-4843-a800-e226cc090a99)
+## Overview
+Project Management is an open-source application that a versatile application utilized by both companies and employees, project management used to manage company projects, project participants, progress, and project evaluations. The tool is built using .NET and Angular. The Management Project is regularly managed and updated by the staff team of NCC.
+ 
+## Table of Contents
 
-# FE
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Backend Setup](#backend-setup)
+  - [Frontend Setup](#frontend-setup)
+  - [Building](#building)
+  - [Running](#running)
+- [Screenshots](#video-tutorial)
+- [License](#license)
 
-# Prerequisites
- Install Node.js which includes Node Package Manager version 14.20  
+## Getting Started
 
-# ProjectManagementTemplate
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.15
+### Prerequisites
 
-## Installation
-1. Install the Angular CLI globally: 
- - npm install -g @angular/cli@9.1.15
+Before you begin, ensure you have met the following requirements:
 
-2. Clone the repository:
- ```bash
-   $ git clone https://github.com/ncc-erp/ncc-erp-project
-   $ cd ncc-erp-project
+- [Visual Studio 2022](https://visualstudio.microsoft.com/) installed.
+- [.NET Core 3.1.426 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/3.1) installed.
+- [ASP.NET Runtime 3.1](https://dotnet.microsoft.com/en-us/download/dotnet/3.1) installed.
+- [Visual Studio Code](https://code.visualstudio.com/) installed.
+- [Node.js 14.20](https://nodejs.org/en/blog/release/v14.20.0) and npm (Node.js Package Manager) installed.
+- [SQL Server](https://www.microsoft.com/en-in/sql-server/sql-server-downloads) installed.
+- <List any other prerequisites>
+
+### Backend Setup
+
+1. **Create a folder** to store the backend and frontend code.
+- example:  folder `ncc-project`
+
+2. **Open a command prompt** in the created folder.
+
+3. **Clone the backend repository** using the following command:
+
+   ```bash
+   git clone https://github.com/ncc-erp/ncc-erp-project.git
+   
+4. Open the backend solution using **Visual Studio 2022**:
+
+- Launch `Visual Studio 2022`.
+- Select `File` > `Open` > `Project/Solution.`
+- Navigate to the backend folder within created folder `timesheet` and open the solution file.
+5. Restore NuGet packages:
+
+- In Solution Explorer, right-click the solution and select **Restore NuGet Packages**.
+6. **Set the startup project:**
+
+- Right-click the desired project (usually the API project) in `Solution Explorer`.
+Select **Set as StartUp Project**.
+
+7. Get the local database file and rename it:
+
+- Locate the **local-project.sql** file in your local environment.
+- Rename it to **local-project.sql**
+8. Update the `appsettings.json` file:
+
+- Open the `appsettings.json` file in the backend project.
+
+- Locate the `ConnectionStrings` section.
+
+- Update the **Default** connection string to match your local database information:
+
+
+
+```json
+{
+  "ConnectionStrings": {
+    "Default": "Server=servername; Database=local-project; User ID=yourUserId;Password=yourPassword;"
+  },
+  // ... other settings ...
+}
 ```
 
-3. Install dependencies:
- - npm install 
- - If you encounter an error while running npm install, you can use the command npm install --legacy-peer-deps as a replacement for npm install.    
- - The command npm install --legacy-peer-deps is used to address issues related to installing dependencies in a Node.js project when versions of the dependent packages are not compatible with each other. 
-    
-## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+9. Press `F5` or select `Debug` > `Start Debugging` to run the backend.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
------
-
-# BE: 
-### Installation
-1. Install the project dependencies:
-- [ASP.NET Core SDK](https://dotnet.microsoft.com/download) (version 3.1.426)
-- [Node.js](https://nodejs.org/) (LTS version)
-- [Angular CLI](https://cli.angular.io/) (global installation)
-
-2. Environment Setup
-**Clone the project from the repository:**
+### Frontend Setup
+1. Open Front-end repository
 ```bash
-$ git clone https://github.com/ncc-erp/ncc-erp-project
-$ cd ncc-erp-project
+cd C:\Users\dell\Documents\CSharpDotnet\timesheet\ncc-erp-project\angular
+```
+- run code
+```bash
+code .
 ```
 
-### Run Application (ASP.NET) 
+2. Install Angular CLI 9.1.15 globally:
 
-1. **Open apsnet-core folder in Visual Studio :**
-   - Open the solution file projectManagement.sln in the aspnet-core folder using Visual Studio. 
+```bash
 
-2. **Choose the run mode:**
-   - Select the run mode (Debug or Release) and enviroment (IIS Express or specific server) as needed. Edit the listening port (if necessary).
+npm install -g @angular/cli@9.1.15
 
-3. **Edit the listening port (if necssary):**
-   - Open `launchSettings.json` in the `ProjectManagement.Web.Host/Properties`.
-   - Find the entry corresponding to the project (ví dụ: `ProjectManagement.Web.Host`).
-   - Change the value of `applicationUrl` to specify the port that the backend will listen on.
+```
+3. Install frontend dependencies:
+```bash
+npm install
+```
 
-4. **Press F5 (or select Debug > Start Debugging) to run the project.**
+If you encounter an error while running npm install, you can use the command 
+```bash 
+npm install --legacy-peer-deps 
+```
 
-application will be compiled and run in the enviroment you've chosen. Information about the listening port will appear in the Output window in Visual Studio.
+as a replacement for npm install.
+The command npm install --legacy-peer-deps is used to address issues related to installing dependencies in a Node.js project when versions of the dependent packages are not compatible with each other. 
 
+4. Run front-end
+```bash
+npm start
+```
 
+### Building
+To build the project, follow these steps:
 
+1.Build the backend using `Visual Studio Code` or the `command line`.
 
+2.Build the frontend:
+
+```bash
+npm run build
+```
+### Running
+To run the project, use these commands:
+
+1. Start the backend using `Visual Studio Code` or the `command line`.
+
+2. Start the frontend:
+
+```bash
+npm start
+```
+# Screenshots
+
+<img src="_screenshots/Client.png"  />
+<img src="_screenshots/ClientCreate.png"  />
+<img src="_screenshots/EditClient.png"  />
+<img src="_screenshots/OutsourcingProject.png"  />
+<img src="_screenshots/OutsourcingProjectDetail.png"  />
+<img src="_screenshots/TrainingProjects.png"  />
+<img src="_screenshots/TrainingProjectsDetail.png"  />
+<img src="_screenshots/ProductProject.png"  />
+<img src="_screenshots/CreateProductProject.png"  />
+<img src="_screenshots/ProductProjectDetails.png"  />
+<img src="_screenshots/WeeklyReports.png"  />
+<img src="_screenshots/WeeklyReportsDetail.png"  />
+
+# License
+[MIT](https://github.com/ncc-erp/ncc-erp-project/blob/dev/LICENSE)
