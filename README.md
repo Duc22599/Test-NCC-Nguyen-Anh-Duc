@@ -76,15 +76,17 @@ Select **Set as StartUp Project**.
 }
 ```
 
-In the CorsOrigins, you add public URL of front-end:
+- In the **CorsOrigins**, you add public URL of front-end:
+```json
   "App": {
     "ServerRootAddress": "http://localhost:21021/",
     "ClientRootAddress": "http://localhost:4200/",
     "CorsOrigins": "http://localhost:4200,http://localhost:4202,http://localhost:8081,http://localhost:3000, more link public in FE..."
   },
-
-In the lauchSetting you have to change your URL:
-
+```
+- In the **lauchSetting** you have to change your URL:
+  
+```json
  "ProjectManagement.Web.Host": {
       "commandName": "Project",
       "launchBrowser": true,
@@ -94,9 +96,9 @@ In the lauchSetting you have to change your URL:
       },
       "applicationUrl": "your URL"
     }
+```
 
-
-Make sure that the backend correctly receives the URL address from the frontend, and similarly, the frontend accurately receives the URL address from the backend.
+- Make sure that the backend correctly receives the URL address from the frontend, and similarly, the frontend accurately receives the URL address from the backend.
 
 9. Press `F5` or select `Debug` > `Start Debugging` to run the backend.
 
