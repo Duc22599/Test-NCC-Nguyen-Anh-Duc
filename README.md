@@ -87,6 +87,7 @@ cd C:\Users\dell\Documents\CSharpDotnet\timesheet\ncc-erp-project\angular
 ```bash
 code .
 ```
+![RunCode](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/9922ad13-387a-4df1-aef8-8d124abc6c4a)
 
 2. Install Angular CLI 9.1.15 globally:
 
@@ -94,16 +95,20 @@ code .
 
 npm install -g @angular/cli@9.1.15
 
+![InstallCLI](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/0b1876ba-921e-4b56-8000-6cbbab44c8ad)
+
 ```
 3. Install frontend dependencies:
 ```bash
 npm install
 ```
+![InstallDepedency](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/40560b09-4d61-44a7-a92b-6dac3c773063)
 
 If you encounter an error while running npm install, you can use the command 
 ```bash 
 npm install --legacy-peer-deps 
 ```
+![InstallDepedencyError](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/f34fbf9c-2214-4360-8e5e-2a91a9728761)
 
 as a replacement for npm install.
 The command npm install --legacy-peer-deps is used to address issues related to installing dependencies in a Node.js project when versions of the dependent packages are not compatible with each other. 
@@ -112,6 +117,7 @@ The command npm install --legacy-peer-deps is used to address issues related to 
 ```bash
 npm start
 ```
+![RunFE](https://github.com/Duc22599/Test-NCC-Nguyen-Anh-Duc/assets/111440755/daf767b3-17cc-4c51-a7d5-118101933166)
 
 ### Building
 To build the project, follow these steps:
